@@ -1,0 +1,19 @@
+export enum METHOD {
+	GET = 'GET',
+	POST = 'POST',
+	PUT = 'PUT',
+	PATCH = 'PATCH',
+	DELETE = 'DELETE'
+}
+
+export const RESPONSE_CODE = {
+	FAILED: 400,
+	AUTH_FAILED: 401,
+	CREATED: 201,
+	OK: 200,
+	NOT_FOUND: 404,
+	INTERNAL: 500,
+	EXIST: 409
+}
+
+export const LIMIT = 10;
